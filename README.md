@@ -6,4 +6,6 @@
 5. Gọi TM_SetIdAssign(): Tạo các trường thông tin cần theo dõi, và gắn ID cho trường thông tin đó.
 6. Gọi TM_SetDataField() để cập nhật giá trị cho trường thông tin, sau đó gọi TM_PublishData() để chốt gửi thông tin.
 
-# Chú ý: Mỗi lần gọi TM_PublishData() sẽ gửi thông tin lên server 1 lần, vậy nên hãy cập nhật nhiều trường thông tin, rồi mới gọi TM_PublishData() để giảm tải server. 
+# Chú ý: 
+1. Mỗi lần gọi TM_PublishData() sẽ gửi thông tin lên server 1 lần, vậy nên hãy cập nhật nhiều trường thông tin, rồi mới gọi TM_PublishData() để giảm tải server.
+2. Đọc kĩ các bước sử dụng trong file README này, và đọc file code example để nắm rõ cách sử dụng
