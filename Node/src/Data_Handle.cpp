@@ -2,7 +2,7 @@
 
 ////////////////////////////////////////////////////////////////////////////
 
-String client_name = "robot";
+String client_name = "default_name";
 
 DynamicJsonDocument data(1024); // Adjust size as needed
 

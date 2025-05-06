@@ -38,6 +38,8 @@ void setup()
   log("Connected to WiFi");
 
   mqtt_connection.Init();
+  data_handle.Init();
+  
   log("MQTT connection initialized");
 }
 
