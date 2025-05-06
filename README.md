@@ -1,7 +1,7 @@
 # Các bước sử dụng:
 
 0. Dùng PlatformIO trên VS Code, build project trong folder Node và nạp cho ESP32.
-1. Import và khai báo thư viện cho code STM32. Baudrate = 230400.
+1. Import và khai báo thư viện cho code STM32. Baudrate = 115200.
 2. Tạo struct TELEMETRY_S.
 3. Gọi TM_Init(): Gắn struct và khai báo bộ UART giao tiếp với ESP32.
 4. Gọi TM_SetNodeName(): Đặt tên cho node để theo dõi trên giao diện.
